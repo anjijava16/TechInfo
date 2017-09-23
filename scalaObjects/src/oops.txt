@@ -1,0 +1,111 @@
+Method Overloading: Same method name but different arguments with different datatypes
+
+def operation1(x:Int):Unit={
+
+
+}
+
+def operation1(x:Int,y:Int):Unit={
+
+}
+
+def operation1(y:Float,z:Float):Unit={
+
+}
+
+A  : class A{  }
+
+|
+|
+V
+B class B extends A {  }
+|
+|
+V
+c class C extends B { }
+
+
+
+
+
+
+
+Overloading : Nothing One class may be same method name but different parameters & datatypes
+
+
+Overriding : Mutlple class
+
+class Emp01{
+final var age:Int=60;
+def find(x:Int):Unit={
+
+}
+}
+
+class Emp02 extends Empo1{
+override var age:Int=25;
+override def find(x:Int):Unit={
+
+}
+}
+
+Access Modifer 
+
+classes ,methods,Variables(Data Mamerbs),traits,constrors
+private 
+
+procted
+
+No Modifier  default modifier 
+
+
+Inhertiance
+Overriding (Method /Fields)
+Final
+
+Abstract
+traits
+Access Modifer
+
+
+
+
+String
+String Interpolation  println(s$"   ")
+
+s,f and raw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def largest(as: Int*): Int = as.reduceLeft((a, b)=> a maxb)
+
+
+A variable-length argument method may be called as follows:
+largest(1)
+largest(2,3,99)
+largest(33, 22,33,22)
+

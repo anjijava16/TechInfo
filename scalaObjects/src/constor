@@ -1,0 +1,32 @@
+Scala We have 2 types of Constrcors
+
+i) Primay Constrcors
+
+ii)Auxiliary Constrcors
+
+
+// Primary Constr
+class ABC(studId:Int,gendor:Char){
+
+}
+
+object MyObject
+
+
+Project 100 Class : Only Object
+
+Main(Scala Object)===> XClass ====> YClass ===> ZClass ===> AClass
+					BClass
+						CClass
+					DClass
+                        PPClass					
+						
+====>>> We can create 'N' no.of auxilliory constors in a class						
+
+===>> We must call primary constors from Auxilliory Constrors
+
+===> this keyword is used for calling constors to other Constrors
+
+===>Inside the Auxilliory must be first line as calling primary constrors
+
+this keyword is main purpose is refer current object 

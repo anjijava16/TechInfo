@@ -1,0 +1,99 @@
+i) Object
+
+ii)Class
+
+iii)SingleTon
+
+iv)Companion
+
+v)Case class
+
+
+Class And Object
+Class :
+
+ Varibles (Data Memebers)
+ functions( Methods)
+ 
+ val x=add(x:Int,y:Int)={
+   x+y;
+ }
+ 
+ // Function
+ 
+ 
+ Method 
+ 
+ Nested Class (A class inside another class called as Netsted class)
+ def add(x:Int,y:Int):Unit={
+  }
+   Constructor
+   
+   class  MainClass{
+   
+     publi class Test{
+	 
+	 }
+	 
+	 
+	 SingleTon Object :
+	 
+	 object MyClass {
+	 
+	 def myOperation():Unit={
+	 
+	 }
+	 
+	 def main(args:Array[String]):Unit={
+	       myOperation();
+	   Operation.processOperation(); //SingleTon 
+	 }
+	 }
+	 
+	 
+====================================================================
+	 
+	 object Operation{
+	   def processOperation():Unit={
+	   
+	   }
+	 }
+	 
+	 if we are calling object class method 
+	 
+	 
+	 
+	 
+	 i)Object : main
+	 
+	 ii) class : We never create main Method
+	 
+	 
+	 How to classes In Scala ?
+	 
+	   By Usng Object only we are calling from Object ---> class
+	   
+	   First Object <<===>> class  ===>> New KeyWord ==> Object Creation
+	   
+	   
+	   ==============================
+	   
+	   Object <<===>>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
